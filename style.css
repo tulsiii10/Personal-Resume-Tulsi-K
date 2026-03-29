@@ -1,0 +1,129 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* PROFILE IMAGE */
+.profile-pic {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 2px solid black;
+}
+/* BODY */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #F8FAFC;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: center; /* centers everything */
+    padding: 15px;
+    background: white;
+}
+
+/* NAV LINKS */
+.nav-links {
+    display: flex;
+    gap: 30px; /* space between links */
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-links a:hover {
+    color: #4F46E5;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: #E0E7FF; /* light background (you can change this) */
+    color: black; /* text color */
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #4F46E5;
+}
+
+.hero p {
+    margin-top: 10px;
+    color: #555;
+}
+
+/* SECTION */
+.section {
+    width: 70%;
+    margin: 40px auto;
+}
+
+.section h2 {
+    color: #4F46E5;
+    margin-bottom: 15px;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    background: #4F46E5;
+    color: white;
+    padding: 8px 14px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+/* TIMELINE */
+.timeline {
+    position: relative;
+    padding-left: 30px;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    width: 2px;
+    height: 100%;
+    background: #4F46E5;
+}
+
+.timeline-item {
+    margin-bottom: 20px;
+}
+
+.circle {
+    position: absolute;
+    left: 4px;
+    width: 12px;
+    height: 12px;
+    background: #4F46E5;
+    border-radius: 50%;
+}
+
+.content-box {
+    margin-left: 30px;
+}
+
+/* SMOOTH SCROLL */
+html {
+    scroll-behavior: smooth;
+}
